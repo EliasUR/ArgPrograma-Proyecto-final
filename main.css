@@ -1,0 +1,62 @@
+body{
+    height: 100vh;
+    width: 100vw;
+    background-image: url(https://img.freepik.com/free-photo/grunge-paint-background_1409-1337.jpg?w=2000);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+header {
+    background-color: #008dad;
+}
+
+main {
+    align-items: center;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    height: 80%;
+    margin: 2% 29%;
+    width: 42%;
+    border-radius: 10px;
+    box-shadow: black 2px 2px 25px;
+}
+
+section {
+    align-items: center;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#perfil {
+    width: 150px;
+    border-radius: 50%;
+    margin-top: 5%;
+}
+
+#info {
+    color: rgb(33, 27, 68);
+    font-size: 1.2em;
+    font-weight: 600;
+}
+
+#info li {
+    list-style: none;
+}
+
+#info a {
+    color: rgb(33, 27, 68);
+}
+
+#info a:hover {
+    color: rgb(65, 39, 212);
+}
+
+.accordion, .accordion-button {
+    color: rgb(33, 27, 68);
+    font-size: 1.2em;
+    font-weight: 600;
+}

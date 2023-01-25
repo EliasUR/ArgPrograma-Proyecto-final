@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV - Kenneth Willis</title>
+    <link rel="stylesheet" href="main.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+</head>
+<body>
+    <header class="navbar navbar-dark">
+        <h1 class="navbar-brand mx-5">Kenneth Willis - Web Developer</h1>
+    </header>
+    <main>
+        <nav>
+            <ul class="nav nav-tabs">
+                <li class="nav-item">
+                  <a id="info-link" class="nav-link active" aria-current="page" href="#">Información Personal</a>
+                </li>
+                <li class="nav-item">
+                  <a id="exp-link" class="nav-link" href="#">Experiencia Laboral</a>
+                </li>
+                <li class="nav-item">
+                  <a id="edu-link" class="nav-link" href="#">Formación Académica</a>
+                </li>
+              </ul>
+        </nav>
+        <section id="info-content" class="container ">
+            <img id="perfil" src="https://randomuser.me/api/portraits/men/32.jpg" alt="Foto de perfil de Kenneth Willis">
+            <h2 class="mb-5">Kenneth Willis</h2>
+            <ul id="info">
+                <li>
+                    <i class="fa-regular fa-calendar"></i> 3/5/1951
+                </li>
+                <li>
+                    <i class="fa-solid fa-envelope"></i>    
+                    <a href="mailto:kenneth.willis@example.com">kenneth.willis@example.com</a>
+                </li>
+                <li>
+                    <i class="fa-sharp fa-solid fa-phone"></i>  
+                    <a href="tel:+383 366-9367"> (383) 366-9367</a>
+                </li>
+                <li>
+                    <i class="fa-solid fa-location-dot"></i>  5985 W Sherman Dr
+                </li>
+            </ul>
+        </section>
+
+        <section id="exp-content" class="container d-none">
+            <div class="accordion m-5" id="accordionExp">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                      Ultima empresa | Puesto (2020 - actualidad)
+                    </button>
+                  </h2>
+                  <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExp">
+                    <div class="accordion-body">
+                      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repudiandae recusandae ratione impedit aliquid error, ab dolorem tempore dolorum iste delectus expedita optio molestiae eligendi aspernatur maiores, quam, dicta cupiditate necessitatibus!
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        Empresa Anterior | Puesto (2013 - 2020)
+                    </button>
+                  </h2>
+                  <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExp">
+                    <div class="accordion-body">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit corrupti ex eaque culpa sunt adipisci praesentium magni quod vel natus. Quidem voluptatum atque veritatis quam esse. Provident reiciendis nihil modi.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        Primer Empleo | Puesto (2005 - 2013)
+                    </button>
+                  </h2>
+                  <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExp">
+                    <div class="accordion-body">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo alias itaque dignissimos assumenda, quos ducimus esse doloribus sunt labore deserunt? Nostrum nisi officia sunt libero sint dolorum, ipsum rerum nesciunt.
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="edu-content" class="container d-none">
+            <div class="accordion m-5" id="accordionEdu">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                      Argentina Programa 4.0 (Enero 2023)
+                    </button>
+                  </h2>
+                  <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionEdu">
+                    <div class="accordion-body">
+                        Curso on-line asincronico de desarrollo web front-end en el cual desarrollamos habilidades de programación y diseño desde cero.
+                        <br>
+                        <Span>Tecnologías aprendidas: </Span>
+                        <i class="fa-brands fa-html5"></i> | 
+                        <i class="fa-brands fa-css3-alt"></i> | 
+                        <i class="fa-brands fa-js"></i> | 
+                        <i class="fa-brands fa-bootstrap"></i>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        UNLaM | Ingeniería en Informática (2021 -actualidad)
+                    </button>
+                  </h2>
+                  <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionEdu">
+                    <div class="accordion-body">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit corrupti ex eaque culpa sunt adipisci praesentium magni quod vel natus. Quidem voluptatum atque veritatis quam esse. Provident reiciendis nihil modi.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        Educación Secundaria | Bachiller (2014 - 2019)
+                    </button>
+                  </h2>
+                  <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionEdu">
+                    <div class="accordion-body">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo alias itaque dignissimos assumenda, quos ducimus esse doloribus sunt labore deserunt? Nostrum nisi officia sunt libero sint dolorum, ipsum rerum nesciunt.
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="https://kit.fontawesome.com/32f4b3c034.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+</body>
+</html>
